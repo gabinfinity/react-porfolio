@@ -9,7 +9,7 @@ function App() {
     <div className="app">
       <section className="profile-container">
         <div className="profile-icons">
-          <a href="https://www.linkedin.com/" target='blank'>
+          <a href="https://www.linkedin.com/in/gabriel-manzoni-bb4796249" target='blank'>
             <BotaoLinkedin />
           </a>
           <a href="https://github.com/gabinfinity" target='blank'>
