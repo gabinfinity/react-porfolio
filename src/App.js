@@ -25,8 +25,10 @@ function App() {
         <div className="profile-infos" >
 
           <h1>OLÁ, MEU NOME É GABRIEL</h1>
-          <h2>FULLSTACK DEVELOPER</h2>
-          <h3>TENHO 23 ANOS E JÁ SOU DESENVOLVEDOR BACKEND FREELANCER HÁ ALGUNS ANOS. ESTOU INICIANDO AGORA A MINHA JORNADA COM FRONT-END.</h3>
+          <h2>FULLSTACK <strong style={{
+            color: '#7AB1E3'
+          }}>{'<DEV />'}</strong></h2>
+          <h3>TENHO 23 ANOS E JÁ TRABALHO COM DESENVOLVIMENTO HÁ 3 ANOS.</h3>
 
         </div>
         <img className="profile-image" src="https://github.com/gabinfinity.png" alt="Foto de Gabriel" />
