@@ -4,7 +4,11 @@ import BotaoGithub from './componentes/botao-github';
 import BotaoLinkedin from './componentes/botao-linkedin';
 import BotaoMail from './componentes/botao-mail';
 
+import { Outlet } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+
 function App() {
+  const { actualPage } = useParams();
   return (
     <div className="app">
       <section className="profile-container">
@@ -22,17 +26,9 @@ function App() {
             <BotaoCv />
           </a> 
         </div>
-        <div className="profile-infos" >
-
-          <h1>OLÁ, MEU NOME É GABRIEL</h1>
-          <h2>FULLSTACK <strong style={{
-            color: '#7AB1E3'
-          }}>{'<DEV />'}</strong></h2>
-          <h3>TENHO 23 ANOS E JÁ TRABALHO COM DESENVOLVIMENTO HÁ 3 ANOS.</h3>
-
-        </div>
+        <Outlet />
         <img className="profile-image" src="https://github.com/gabinfinity.png" alt="Foto de Gabriel" />
-      </section>    
+      </section>
     </div>
   );
 }
