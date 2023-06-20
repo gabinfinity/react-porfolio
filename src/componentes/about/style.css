@@ -28,7 +28,7 @@
     margin: 0px;
   }
 
-@media (min-width: 1248px) {
+@media (min-width: 820px) {
     .profile-infos {
     margin-top:100px;
     display: flex;

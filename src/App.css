@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-@media (min-width: 1248px) {
+@media (min-width: 820px) {
 .app {
   display: flex;
   flex-direction: column;
